@@ -1,0 +1,49 @@
+@font-face {font-family:"Cardo"; src:url("../fonturi/cardo.ttf");}
+@font-face {font-family:"Old Standard TT"; src:url("../fonturi/old_standard_tt.ttf");}
+
+* {margin:0; padding:0; font-family:Cardo, serif;}
+html {font-size:15px; cursor:default; background:#d1ac55 url(imagini/fundal.jpg);}
+body {width:840px; margin:0 auto;}
+h1, h2, h3 {font-weight:normal; font-family:"Old Standard TT", serif; text-align:center;}
+h2 {font-size:19px; letter-spacing:0.4em; word-spacing:0.6em; text-transform:uppercase; 
+    padding-top:1em; text-indent:0.4em;}
+h3 {font-size:21px; letter-spacing:0.2em; margin:1em 0;}
+a {color:#000; text-decoration:none; outline:none;}
+
+body p.descriere:before {content:"— ";}
+body p.descriere:after {content:" —";}
+body p.descriere {text-align:center; font-style:italic; margin-bottom:2em;}
+body {background-image:url(imagini/decor.png); background-repeat:no-repeat; background-position:center top;}
+
+div.antet {width:840px; height:343px; background-image:url(imagini/rama_antet.png);}
+div.antet h1 {width:617px; height:205px; text-indent:-9999px; background-image:url(imagini/titlu.png); background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}
+div.antet .descriere {display: none;}
+
+div.mijloc {width:840px; background-image:url(imagini/rama_mijloc.png); background-repeat:repeat-y;}
+
+/* cea mai tâmpită chestie */
+div.cuprins {width:438px; margin-left:198px; text-align:justify; margin-bottom:2em; letter-spacing:0.1em; word-spacing:0.4em; line-height:1.5;}
+div.cuprins ul {list-style:none; overflow:hidden;}
+div.cuprins ul li a {display:block; clear:both; border-bottom:1px dashed #000; margin-top: 0.5em;}
+div.cuprins ul li a span {display:block; margin-top:0em;}
+div.cuprins ul li a span.titlu {float:left; padding-right:0.2em;}
+div.cuprins ul li a span.sterge {display:inline;}
+div.cuprins ul li a span.data {float:right; padding-left:0.2em;}
+div.cuprins ul li:hover a {border-bottom:1px dashed #000;}
+
+div.articole {width:438px; margin-left:198px; text-align:justify;}
+
+div.articol {padding-bottom:4em;}
+div.articol p {line-height:2; word-spacing:0.2em; text-align:justify; text-indent:2em;}
+div.articol p.strofa {text-indent:0; text-align:center; margin:0 0 1em 0;}
+div.articol p.data {text-indent:0; text-align:right; font-style:italic; font-size:14px; margin:0 1em 1em 0;}
+div.articol a {white-space:nowrap; border-bottom:1px solid #8B5840;}
+div.articol a:hover {border-bottom:1px solid #000;}
+div.articol div.separator {width:15em; border-top:1px solid #000; margin:2em 0 0 2em; font-size:13px;}
+div.articol div.textSubsol p {font-size:13px; text-indent:0; padding-left:2em;}
+div.articol sup.nota a {display:inline-block; height:1.3em; vertical-align:top; text-indent:0; font-size:10px;}
+div.articol p.citat {text-indent:0; padding:1em 3em;}
+
+div.subsol div.separator {display: none}
+div.subsol div.drepturi {display: none}
+div.subsol {width:840px; height:287px; background-image:url(imagini/rama_subsol.png);}
